@@ -1,0 +1,245 @@
+Content-Length: 2653
+
+{"jsonrpc":"2.0","id":1,"result":{"capabilities":{"positionEncoding":"utf-16","textDocumentSync":{"openClose":true,"change":2,"save":{}},"selectionRangeProvider":true,"hoverProvider":true,"completionProvider":{"resolveProvider":true,"triggerCharacters":[":",".","'","("],"completionItem":{"labelDetailsSupport":true}},"signatureHelpProvider":{"triggerCharacters":["(",",","<"]},"definitionProvider":true,"typeDefinitionProvider":true,"implementationProvider":true,"referencesProvider":true,"documentHighlightProvider":true,"documentSymbolProvider":true,"workspaceSymbolProvider":true,"codeActionProvider":{"codeActionKinds":["","quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite"],"resolveProvider":true},"codeLensProvider":{"resolveProvider":true},"documentFormattingProvider":true,"documentRangeFormattingProvider":false,"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"=","moreTriggerCharacter":[".",">","{"]},"renameProvider":{"prepareProvider":true},"foldingRangeProvider":true,"declarationProvider":true,"workspace":{"workspaceFolders":{"supported":true,"changeNotifications":true},"fileOperations":{"willRename":{"filters":[{"scheme":"file","pattern":{"glob":"**/*.rs","matches":"file"}},{"scheme":"file","pattern":{"glob":"**","matches":"folder"}}]}}},"callHierarchyProvider":true,"semanticTokensProvider":{"legend":{"tokenTypes":["comment","decorator","enumMember","enum","function","interface","keyword","macro","method","namespace","number","operator","parameter","property","string","struct","typeParameter","variable","angle","arithmetic","attribute","attributeBracket","bitwise","boolean","brace","bracket","builtinAttribute","builtinType","character","colon","comma","comparison","constParameter","derive","deriveHelper","dot","escapeSequence","formatSpecifier","generic","label","lifetime","logical","macroBang","parenthesis","punctuation","selfKeyword","selfTypeKeyword","semicolon","typeAlias","toolModule","union","unresolvedReference"],"tokenModifiers":["documentation","declaration","static","defaultLibrary","async","attribute","callable","constant","consuming","controlFlow","crateRoot","injected","intraDocLink","library","macro","mutable","public","reference","trait","unsafe"]},"range":true,"full":{"delta":true}},"inlayHintProvider":{"resolveProvider":true},"experimental":{"externalDocs":true,"hoverRange":true,"joinLines":true,"matchingBrace":true,"moveItem":true,"onEnter":true,"openCargoToml":true,"parentModule":true,"runnables":{"kinds":["cargo"]},"ssr":true,"workspaceSymbolScopeKindFiltering":true}},"serverInfo":{"name":"rust-analyzer","version":"1.72.0 (5680fa18 2023-08-23)"}}}Content-Length: 112
+
+{"jsonrpc":"2.0","method":"experimental/serverStatus","params":{"health":"ok","quiescent":false,"message":null}}Content-Length: 109
+
+{"jsonrpc":"2.0","id":0,"method":"window/workDoneProgress/create","params":{"token":"rustAnalyzer/Fetching"}}Content-Length: 146
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Fetching","value":{"kind":"begin","title":"Fetching","cancellable":false}}}Content-Length: 149
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Fetching","value":{"kind":"report","cancellable":false,"message":"metadata"}}}Content-Length: 105
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Fetching","value":{"kind":"end"}}}Content-Length: 114
+
+{"jsonrpc":"2.0","id":1,"method":"window/workDoneProgress/create","params":{"token":"rustAnalyzer/Roots Scanned"}}Content-Length: 188
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"begin","title":"Roots Scanned","cancellable":false,"message":"0/22","percentage":0}}}Content-Length: 165
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"1/22","percentage":4}}}Content-Length: 165
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"2/22","percentage":9}}}Content-Length: 166
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"3/22","percentage":13}}}Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"window/workDoneProgress/create","params":{"token":"rustAnalyzer/Fetching"}}Content-Length: 146
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Fetching","value":{"kind":"begin","title":"Fetching","cancellable":false}}}Content-Length: 166
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"4/22","percentage":18}}}Content-Length: 166
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"5/22","percentage":22}}}Content-Length: 166
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"6/22","percentage":27}}}Content-Length: 166
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"7/22","percentage":31}}}Content-Length: 166
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"8/22","percentage":36}}}Content-Length: 166
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"9/22","percentage":40}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"10/22","percentage":45}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"11/22","percentage":50}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"12/22","percentage":54}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"13/22","percentage":59}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"14/22","percentage":63}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"15/22","percentage":68}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"16/22","percentage":72}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"17/22","percentage":77}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"18/22","percentage":81}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"19/22","percentage":86}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"20/22","percentage":90}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"21/22","percentage":95}}}Content-Length: 128
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"end","message":"22/22"}}}Content-Length: 149
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Fetching","value":{"kind":"report","cancellable":false,"message":"metadata"}}}Content-Length: 105
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Fetching","value":{"kind":"end"}}}Content-Length: 109
+
+{"jsonrpc":"2.0","id":3,"method":"window/workDoneProgress/create","params":{"token":"rustAnalyzer/Fetching"}}Content-Length: 146
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Fetching","value":{"kind":"begin","title":"Fetching","cancellable":false}}}Content-Length: 149
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Fetching","value":{"kind":"report","cancellable":false,"message":"metadata"}}}Content-Length: 105
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Fetching","value":{"kind":"end"}}}Content-Length: 109
+
+{"jsonrpc":"2.0","id":4,"method":"window/workDoneProgress/create","params":{"token":"rustAnalyzer/Building"}}Content-Length: 146
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"begin","title":"Building","cancellable":false}}}Content-Length: 108
+
+{"jsonrpc":"2.0","id":5,"method":"window/workDoneProgress/create","params":{"token":"rustAnalyzer/Loading"}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Loading","value":{"kind":"begin","title":"Loading","cancellable":false}}}Content-Length: 104
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Loading","value":{"kind":"end"}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: libc"}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"running build-script: libc"}}}Content-Length: 174
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: proc-macro2"}}}Content-Length: 176
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: unicode-ident"}}}Content-Length: 170
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: autocfg"}}}Content-Length: 179
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: parking_lot_core"}}}Content-Length: 173
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: scopeguard"}}}Content-Length: 171
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: smallvec"}}}Content-Length: 169
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: cfg-if"}}}Content-Length: 168
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: bytes"}}}Content-Length: 179
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: pin-project-lite"}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: libc"}}}Content-Length: 174
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"running build-script: proc-macro2"}}}Content-Length: 171
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: lock_api"}}}Content-Length: 179
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"running build-script: parking_lot_core"}}}Content-Length: 174
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: proc-macro2"}}}Content-Length: 171
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"running build-script: lock_api"}}}Content-Length: 179
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: parking_lot_core"}}}Content-Length: 166
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: mio"}}}Content-Length: 170
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: socket2"}}}Content-Length: 171
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: num_cpus"}}}Content-Length: 183
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: signal-hook-registry"}}}Content-Length: 168
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: quote"}}}Content-Length: 171
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: lock_api"}}}Content-Length: 166
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: syn"}}}Content-Length: 174
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: parking_lot"}}}Content-Length: 175
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: tokio-macros"}}}Content-Length: 168
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: tokio"}}}Content-Length: 169
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: ratest"}}}Content-Length: 169
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"report","cancellable":false,"message":"building proc-macros: ratest"}}}Content-Length: 105
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Building","value":{"kind":"end"}}}Content-Length: 114
+
+{"jsonrpc":"2.0","id":6,"method":"window/workDoneProgress/create","params":{"token":"rustAnalyzer/Roots Scanned"}}Content-Length: 188
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"begin","title":"Roots Scanned","cancellable":false,"message":"0/22","percentage":0}}}Content-Length: 165
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"1/22","percentage":4}}}Content-Length: 165
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"2/22","percentage":9}}}Content-Length: 108
+
+{"jsonrpc":"2.0","id":7,"method":"window/workDoneProgress/create","params":{"token":"rustAnalyzer/Loading"}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Loading","value":{"kind":"begin","title":"Loading","cancellable":false}}}Content-Length: 223
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Loading","value":{"kind":"report","cancellable":false,"message":"/Users/alan/Desktop/ratest/target/debug/deps/libtokio_macros-b2000f0bed5823e3.dylib"}}}Content-Length: 166
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"3/22","percentage":13}}}Content-Length: 104
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Loading","value":{"kind":"end"}}}Content-Length: 166
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"4/22","percentage":18}}}Content-Length: 166
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"5/22","percentage":22}}}Content-Length: 166
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"6/22","percentage":27}}}Content-Length: 166
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"7/22","percentage":31}}}Content-Length: 166
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"8/22","percentage":36}}}Content-Length: 166
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"9/22","percentage":40}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"10/22","percentage":45}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"11/22","percentage":50}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"12/22","percentage":54}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"13/22","percentage":59}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"14/22","percentage":63}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"15/22","percentage":68}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"16/22","percentage":72}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"17/22","percentage":77}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"18/22","percentage":81}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"19/22","percentage":86}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"20/22","percentage":90}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"report","cancellable":false,"message":"21/22","percentage":95}}}Content-Length: 128
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Roots Scanned","value":{"kind":"end","message":"22/22"}}}Content-Length: 111
+
+{"jsonrpc":"2.0","method":"experimental/serverStatus","params":{"health":"ok","quiescent":true,"message":null}}Content-Length: 109
+
+{"jsonrpc":"2.0","id":8,"method":"window/workDoneProgress/create","params":{"token":"rustAnalyzer/Indexing"}}Content-Length: 161
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Indexing","value":{"kind":"begin","title":"Indexing","cancellable":false,"percentage":0}}}Content-Length: 175
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Indexing","value":{"kind":"report","cancellable":false,"message":"0/6 (core + 1 more)","percentage":0}}}Content-Length: 167
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Indexing","value":{"kind":"report","cancellable":false,"message":"1/6 (core)","percentage":16}}}Content-Length: 112
+
+{"jsonrpc":"2.0","id":9,"method":"window/workDoneProgress/create","params":{"token":"rust-analyzer/flycheck/0"}}Content-Length: 151
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rust-analyzer/flycheck/0","value":{"kind":"begin","title":"cargo check","cancellable":true}}}Content-Length: 108
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rust-analyzer/flycheck/0","value":{"kind":"end"}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Indexing","value":{"kind":"report","cancellable":false,"percentage":33}}}Content-Length: 168
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Indexing","value":{"kind":"report","cancellable":false,"message":"2/6 (alloc)","percentage":33}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Indexing","value":{"kind":"report","cancellable":false,"percentage":50}}}Content-Length: 166
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Indexing","value":{"kind":"report","cancellable":false,"message":"3/6 (std)","percentage":50}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Indexing","value":{"kind":"report","cancellable":false,"percentage":66}}}Content-Length: 173
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Indexing","value":{"kind":"report","cancellable":false,"message":"4/6 (proc_macro)","percentage":66}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Indexing","value":{"kind":"report","cancellable":false,"percentage":83}}}Content-Length: 168
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Indexing","value":{"kind":"report","cancellable":false,"message":"5/6 (tokio)","percentage":83}}}Content-Length: 145
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Indexing","value":{"kind":"report","cancellable":false,"percentage":100}}}Content-Length: 105
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"rustAnalyzer/Indexing","value":{"kind":"end"}}}Content-Length: 154
+
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///Users/alan/Desktop/ratest/src/main.rs","diagnostics":[],"version":0}}Content-Length: 117
+
+{"jsonrpc":"2.0","id":3,"result":{"resultId":"1","data":[0,0,2,6,0,0,3,4,4,2,0,9,7,7,8200,0,7,1,7,0,0,2,6,14,16384]}}Process complete

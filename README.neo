@@ -1,0 +1,73 @@
+-- title
+
+rust-analyzer STDIN Example
+
+-- notes
+
+- An example of how to connect to rust-analyzer from STDIN
+with JSON-RPC
+
+- This gets semantic tokens
+
+- The paths are hardcoded to "/Users/alan/Desktop/ratest"
+
+- A "Cargo.toml" file has to exist at 
+"/Users/alan/Desktop/ratest/Cargo.toml" for the 
+semantic tokens to work
+
+- Watch out for the escaping of the paths. I think I
+had some problems with that as well, but that was
+early so it may have been unrelated issue
+
+- The "output.log" shows an example run
+
+- There's a couple sleep timers in the mix. They're necessary
+for things to work properly. This was just a scratchpad test
+and they did the job. Something aimed at production would
+need a more robust solution
+
+- One thing to examine is the "augmentsSyntaxTokens" option
+which sounds like it reduced the number of tokens sent so they
+don't fight with other highlighters. 
+
+
+
+-- ref
+-- title: rust-analyzer
+-- url: https://rust-analyzer.github.io
+
+
+-- ref
+-- title: Language Server Protocol (LSP) Spec
+-- url: https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#client_registerCapability
+
+
+-- ref
+-- title: LSP Semantic Tokens
+-- url: https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#textDocument_semanticTokens
+
+
+-- ref
+-- title: LSP Header Part
+-- url: https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#headerPart
+
+
+-- ref
+-- title: JSON-RPC
+-- url: https://www.jsonrpc.org
+
+
+-- ref
+-- title: STDIN Logger
+-- url: https://github.com/alanwsmith/stdin_logger
+
+This is the little tool I wrote that let me see what
+Neovim was sending to rust-analyzer (I did a quick
+renamed to put it in place to see what was going
+across the wire)
+
+
+-- ref
+-- title: Neovim
+-- url: https://neovim.io
+

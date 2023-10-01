@@ -1,0 +1,10 @@
+{
+  "jsonrpc": "2.0",
+  "id": 3,
+  "method": "textDocument/semanticTokens/full",
+  "params": {
+    "textDocument": {
+      "uri": "file:\\/\\/\\/Users\\/alan\\/Desktop\\/ratest\\/src\\/main.rs"
+    }
+  }
+}

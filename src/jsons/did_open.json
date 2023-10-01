@@ -1,0 +1,12 @@
+{
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "file:\\/\\/\\/Users\\/alan\\/Desktop\\/ratest\\/src\\/main.rs",
+      "languageId": "rust",
+      "version": 0,
+      "text": "fn main() { println!(\"here\"); }"
+    }
+  }
+}

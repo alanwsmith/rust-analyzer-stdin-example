@@ -1,0 +1,347 @@
+{
+  "_NOTE": [
+    "This is mostly a copy of what Neovim sends.",
+    "Lots of stuff can probably be removed, but it got me what I needed"
+  ],
+  "id": 1,
+  "params": {
+      "trace": "off",
+      "workspaceFolders": [
+          {
+              "uri": "file:\\/\\/\\/Users\\/alan\\/Desktop\\/ratest",
+              "name": "\\/Users\\/alan\\/Desktop\\/ratest"
+          }
+      ],
+      "rootUri": "file:\\/\\/\\/Users\\/alan\\/Desktop\\/ratest",
+      "rootPath": "\\/Users\\/alan\\/Desktop\\/ratest",
+      "clientInfo": {
+          "name": "Neovim",
+          "version": "0.9.1"
+      },
+      "capabilities": {
+          "workspace": {
+              "workspaceFolders": true,
+              "applyEdit": true,
+              "workspaceEdit": {
+                  "resourceOperations": [
+                      "rename",
+                      "create",
+                      "delete"
+                  ]
+              },
+              "symbol": {
+                  "hierarchicalWorkspaceSymbolSupport": true,
+                  "dynamicRegistration": false,
+                  "symbolKind": {
+                      "valueSet": [
+                          1,
+                          2,
+                          3,
+                          4,
+                          5,
+                          6,
+                          7,
+                          8,
+                          9,
+                          10,
+                          11,
+                          12,
+                          13,
+                          14,
+                          15,
+                          16,
+                          17,
+                          18,
+                          19,
+                          20,
+                          21,
+                          22,
+                          23,
+                          24,
+                          25,
+                          26
+                      ]
+                  }
+              },
+              "semanticTokens": {
+                  "refreshSupport": false
+              },
+              "configuration": true,
+              "didChangeWatchedFiles": {
+                  "dynamicRegistration": false,
+                  "relativePatternSupport": true
+              }
+          },
+          "window": {
+              "showDocument": {
+                  "support": true
+              },
+              "workDoneProgress": true,
+              "showMessage": {
+                  "messageActionItem": {
+                      "additionalPropertiesSupport": false
+                  }
+              }
+          },
+          "experimental": {
+              "serverStatusNotification": true
+          },
+          "textDocument": {
+              "definition": {
+                  "linkSupport": true
+              },
+              "documentHighlight": {
+                  "dynamicRegistration": false
+              },
+              "references": {
+                  "dynamicRegistration": false
+              },
+              "signatureHelp": {
+                  "dynamicRegistration": false,
+                  "signatureInformation": {
+                      "parameterInformation": {
+                          "labelOffsetSupport": true
+                      },
+                      "documentationFormat": [
+                          "markdown",
+                          "plaintext"
+                      ],
+                      "activeParameterSupport": true
+                  }
+              },
+              "codeAction": {
+                  "dynamicRegistration": false,
+                  "dataSupport": true,
+                  "isPreferredSupport": true,
+                  "resolveSupport": {
+                      "properties": [
+                          "edit"
+                      ]
+                  },
+                  "codeActionLiteralSupport": {
+                      "codeActionKind": {
+                          "valueSet": [
+                              "",
+                              "quickfix",
+                              "refactor",
+                              "refactor.extract",
+                              "refactor.inline",
+                              "refactor.rewrite",
+                              "source",
+                              "source.organizeImports"
+                          ]
+                      }
+                  }
+              },
+              "hover": {
+                  "dynamicRegistration": false,
+                  "contentFormat": [
+                      "markdown",
+                      "plaintext"
+                  ]
+              },
+              "rename": {
+                  "dynamicRegistration": false,
+                  "prepareSupport": true
+              },
+              "callHierarchy": {
+                  "dynamicRegistration": false
+              },
+              "declaration": {
+                  "linkSupport": true
+              },
+              "implementation": {
+                  "linkSupport": true
+              },
+              "publishDiagnostics": {
+                  "relatedInformation": true,
+                  "tagSupport": {
+                      "valueSet": [
+                          1,
+                          2
+                      ]
+                  }
+              },
+              "completion": {
+                  "dynamicRegistration": false,
+                  "contextSupport": true,
+                  "completionList": {
+                      "itemDefaults": [
+                          "commitCharacters",
+                          "editRange",
+                          "insertTextFormat",
+                          "insertTextMode",
+                          "data"
+                      ]
+                  },
+                  "completionItem": {
+                      "commitCharactersSupport": true,
+                      "snippetSupport": true,
+                      "deprecatedSupport": true,
+                      "resolveSupport": {
+                          "properties": [
+                              "documentation",
+                              "detail",
+                              "additionalTextEdits",
+                              "sortText",
+                              "filterText",
+                              "insertText",
+                              "textEdit",
+                              "insertTextFormat",
+                              "insertTextMode"
+                          ]
+                      },
+                      "documentationFormat": [
+                          "markdown",
+                          "plaintext"
+                      ],
+                      "tagSupport": {
+                          "valueSet": [
+                              1
+                          ]
+                      },
+                      "insertReplaceSupport": true,
+                      "labelDetailsSupport": true,
+                      "insertTextModeSupport": {
+                          "valueSet": [
+                              1,
+                              2
+                          ]
+                      },
+                      "preselectSupport": true
+                  },
+                  "completionItemKind": {
+                      "valueSet": [
+                          1,
+                          2,
+                          3,
+                          4,
+                          5,
+                          6,
+                          7,
+                          8,
+                          9,
+                          10,
+                          11,
+                          12,
+                          13,
+                          14,
+                          15,
+                          16,
+                          17,
+                          18,
+                          19,
+                          20,
+                          21,
+                          22,
+                          23,
+                          24,
+                          25
+                      ]
+                  },
+                  "insertTextMode": 1
+              },
+              "synchronization": {
+                  "didSave": true,
+                  "willSaveWaitUntil": true,
+                  "dynamicRegistration": false,
+                  "willSave": true
+              },
+              "semanticTokens": {
+                  "dynamicRegistration": false,
+                  "tokenModifiers": [
+                      "declaration",
+                      "definition",
+                      "readonly",
+                      "static",
+                      "deprecated",
+                      "abstract",
+                      "async",
+                      "modification",
+                      "documentation",
+                      "defaultLibrary"
+                  ],
+                  "multilineTokenSupport": false,
+                  "overlappingTokenSupport": true,
+                  "augmentsSyntaxTokens": false,
+                  "serverCancelSupport": false,
+                  "requests": {
+                      "range": false,
+                      "full": {
+                          "delta": true
+                      }
+                  },
+                  "tokenTypes": [
+                      "namespace",
+                      "type",
+                      "class",
+                      "enum",
+                      "interface",
+                      "struct",
+                      "typeParameter",
+                      "parameter",
+                      "variable",
+                      "property",
+                      "enumMember",
+                      "event",
+                      "function",
+                      "method",
+                      "macro",
+                      "keyword",
+                      "modifier",
+                      "comment",
+                      "string",
+                      "number",
+                      "regexp",
+                      "operator",
+                      "decorator"
+                  ],
+                  "formats": [
+                      "relative"
+                  ]
+              },
+              "documentSymbol": {
+                  "dynamicRegistration": false,
+                  "hierarchicalDocumentSymbolSupport": true,
+                  "symbolKind": {
+                      "valueSet": [
+                          1,
+                          2,
+                          3,
+                          4,
+                          5,
+                          6,
+                          7,
+                          8,
+                          9,
+                          10,
+                          11,
+                          12,
+                          13,
+                          14,
+                          15,
+                          16,
+                          17,
+                          18,
+                          19,
+                          20,
+                          21,
+                          22,
+                          23,
+                          24,
+                          25,
+                          26
+                      ]
+                  }
+              },
+              "typeDefinition": {
+                  "linkSupport": true
+              }
+          }
+      },
+      "initializationOptions": {},
+      "processId": 88229
+  },
+  "method": "initialize",
+  "jsonrpc": "2.0"
+}
